@@ -18,7 +18,3 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-
-defaultConfig {
-    applicationId "com.smart.expensetracker"
-}

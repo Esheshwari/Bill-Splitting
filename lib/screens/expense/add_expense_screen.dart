@@ -190,7 +190,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
 
   List<ExpenseShare> _buildShares(List<AppUser> users, double amount) {
     if (_splitType == SplitType.equal) {
-      final share = users.isEmpty ? 0 : amount / users.length;
+      final double share = users.isEmpty ? 0.0 : amount / users.length;
       return users
           .map<ExpenseShare>((user) => ExpenseShare(userId: user.id, amount: share))
           .toList();

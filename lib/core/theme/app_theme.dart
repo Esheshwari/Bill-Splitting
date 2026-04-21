@@ -25,7 +25,7 @@ class AppTheme {
         error: _coral,
         surface: Colors.white,
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: Colors.white,
         elevation: 0,
         margin: EdgeInsets.zero,
@@ -79,7 +79,7 @@ class AppTheme {
         tertiary: _coral,
         surface: const Color(0xFF18212B),
       ),
-      cardTheme: CardTheme(
+      cardTheme: CardThemeData(
         color: const Color(0xFF18212B),
         elevation: 0,
         margin: EdgeInsets.zero,
