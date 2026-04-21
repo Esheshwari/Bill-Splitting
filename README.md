@@ -1,5 +1,7 @@
 # SplitSmart
 
+Test commit marker: README single-line update.
+
 SplitSmart is a modern Flutter bill-splitting app for Android and iOS with Firebase-ready architecture, smart settlements, spending insights, dark mode, and UPI payment shortcuts.
 
 ## Highlights
